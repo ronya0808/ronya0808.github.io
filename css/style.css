@@ -1,0 +1,104 @@
+*{
+   margin: 0;
+}
+
+h1 {
+   padding-top: -50px;
+   color: cornsilk;
+}
+
+header{
+   width: 100%;
+   height: 10vh;
+   background-color: #87ceeb;
+   position: fixed;
+   display: flex;
+   font-family: 'Pacifico', cursive;
+   
+}
+
+.logo{
+   width: 20%;
+   font-size: 150%;
+}
+
+.screen{
+   background-image: url(../images/fon1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
+}
+   
+nav{
+   width: 70%;
+   margin-left: 10%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 30px;
+}
+.navi {
+   color: cornsilk;
+   text-decoration: none;
+   transition: color 0.2s linear;
+}
+.navi:hover {
+   color: #ff9999;
+}
+li{
+   list-style: none;
+}
+
+a{
+   text-decoration: none;
+}
+.ct {
+  
+   width: 100%;
+   height: 30vh;
+   font-family: Kaushan Script, cursive;
+   font-size: 40px;
+   color: black;
+   text-align: center;
+   align-items: center;
+}
+div {
+   float: left; /*Задаем обтекание*/
+   color:black;
+   width: 500px; /*Фиксируем ширину блока*/
+   text-align: center; /*Центрируем текст по горизонтали*/
+  }
+.nav {
+   color: black;
+   text-decoration: none;
+   transition: color 0.2s linear;
+   font-family: Kaushan Script, cursive;
+   font-weight: bolder;
+}
+.nav:hover {
+   color: #ff9999;
+}
+.bl {
+   font-family: Kaushan Script, cursive;
+   font-size: 25 px;
+}
+footer {
+   position : fixed;
+   height : 5vh;
+   bottom : 0;
+   background-color: #87ceeb;
+   width: 100%;
+   font-family: Kaushan Script, cursive;
+   font-size: 20px;
+   color: whitesmoke;
+   text-align: center;
+ }
+ .kn {
+    color: black;
+    
+ }
+
+
+
+ 
